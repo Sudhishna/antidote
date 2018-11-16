@@ -3,7 +3,7 @@ lessonName: Docker Containers
 lessonID: 30
 category: configuration
 lessondiagram: https://raw.githubusercontent.com/Sudhishna/antidote/master/lessons/lesson-31/docker.png
-tier: prod
+tier: local
 
 utilities:
 - name: docker1
