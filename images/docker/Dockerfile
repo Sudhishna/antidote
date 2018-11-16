@@ -11,4 +11,4 @@ RUN curl -fsSL https://download.docker.com/linux/ubuntu/gpg | apt-key add - && \
 RUN apt-cache policy docker-ce
 RUN apt-get install -y docker-ce
 
-COPY ./docker_configs/Dockerfile .
+COPY ./docker_configs/Dockerfile /home/antidote
