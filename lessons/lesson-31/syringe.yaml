@@ -21,7 +21,7 @@ devices:
 
 connections:
 - a: vqfx1
-  b: salt1
+  b: docker1
   subnet: 10.1.0.0/24
 
 stages:
