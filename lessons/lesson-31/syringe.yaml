@@ -1,9 +1,9 @@
 ---
 lessonName: Docker Containers
 lessonID: 31
-category: configuration
-lessondiagram: https://raw.githubusercontent.com/Sudhishna/antidote/master/lessons/lesson-31/docker.png
-tier: ptr
+category: introductory
+lessondiagram: https://raw.githubusercontent.com/Sudhishna/antidote/master/lessons/lesson-31/salt.png
+tier: local
 
 utilities:
 - name: docker1
@@ -28,15 +28,3 @@ stages:
   1:
     description: Docker Images and Containers
     labguide: https://raw.githubusercontent.com/Sudhishna/antidote/master/lessons/lesson-31/stage1/guide.md
-
-  2:
-    description: Docker Networks
-    labguide: https://raw.githubusercontent.com/Sudhishna/antidote/master/lessons/lesson-31/stage2/guide.md
-
-  3:
-    description: Monitoring Docker Containers
-    labguide: https://raw.githubusercontent.com/Sudhishna/antidote/master/lessons/lesson-31/stage3/guide.md
-
-  4:
-    description: Docker Compose
-    labguide: https://raw.githubusercontent.com/Sudhishna/antidote/master/lessons/lesson-31/stage4/guide.md
