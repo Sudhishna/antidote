@@ -45,14 +45,14 @@ docker run saltimage
 docker container ls
 docker container ps
 ```
-<button type="button" class="btn btn-primary btn-sm" onclick="runSnippetInTab('docker1', 3)">Run this snippet</button>
+<button type="button" class="btn btn-primary btn-sm" onclick="runSnippetInTab('docker1', 7)">Run this snippet</button>
 
 ```
 docker container ls -a
 ```
-<button type="button" class="btn btn-primary btn-sm" onclick="runSnippetInTab('docker1', 4)">Run this snippet</button>
+<button type="button" class="btn btn-primary btn-sm" onclick="runSnippetInTab('docker1', 8)">Run this snippet</button>
 
 ```
 docker pull busybox
 ```
-<button type="button" class="btn btn-primary btn-sm" onclick="runSnippetInTab('salt1', 5)">Run this snippet</button>
+<button type="button" class="btn btn-primary btn-sm" onclick="runSnippetInTab('docker1', 9)">Run this snippet</button>
