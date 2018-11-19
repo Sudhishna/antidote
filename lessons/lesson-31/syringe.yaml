@@ -1,0 +1,43 @@
+---
+lessonName: Docker Containers
+lessonId: 31
+category: configuration
+lessondiagram: https://raw.githubusercontent.com/Sudhishna/antidote/master/lessons/lesson-31/docker.png
+tier: local
+
+utilities:
+- name: docker1
+  image: sudhishna/docker
+  sshuser: antidote
+  sshpassword: antidotepassword
+  ports: [22]
+
+devices:
+- name: vqfx1
+  image: antidotelabs/vqfxspeedy:snap1
+  sshuser: root
+  sshpassword: VR-netlab9
+  ports: [8080, 830]
+
+connections:
+- a: vqfx1
+  b: docker1
+  subnet: 10.1.0.0/24
+
+stages:
+  1:
+    id: 1
+    description: Docker Images and Containers
+    labGuide: https://raw.githubusercontent.com/Sudhishna/antidote/master/lessons/lesson-31/stage1/guide.md
+  2:
+    id: 2
+    description: Docker Networks
+    labGuide: https://raw.githubusercontent.com/Sudhishna/antidote/master/lessons/lesson-31/stage2/guide.md
+  3:
+    id: 3
+    description: Monitoring Docker Containers
+    labGuide: https://raw.githubusercontent.com/Sudhishna/antidote/master/lessons/lesson-31/stage3/guide.md
+  4:
+    id: 4
+    description: Docker Compose
+    labGuide: https://raw.githubusercontent.com/Sudhishna/antidote/master/lessons/lesson-31/stage4/guide.md
